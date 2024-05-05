@@ -1,13 +1,13 @@
 {
-    "name": "gammamatrix/playground-make-route",
-    "description": "Playground: This package provides the playground:make:route command.",
+    "name": "gammamatrix/playground-make-react",
+    "description": "Playground: This package provides the playground:make:react command.",
     "keywords": [
         "gammamatrix",
         "laravel",
         "playground",
         "playground:make"
     ],
-    "homepage": "https://github.com/gammamatrix/playground-make-route",
+    "homepage": "https://github.com/gammamatrix/playground-make-react",
     "license": "MIT",
     "authors": [
         {
@@ -24,22 +24,22 @@
     ],
     "require": {
         "php": "^8.2",
-        "gammamatrix/playground-make": "dev-develop|dev-master|dev-feature/*|^73.0@dev|^73.0"
+        "gammamatrix/playground-make": "dev-develop|dev-feature/*"
     },
     "require-dev": {
-        "gammamatrix/playground-test": "dev-develop|dev-master|dev-feature/*|^73.0@dev|^73.0"
+        "gammamatrix/playground-test": "dev-develop|dev-feature/*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Playground\\Make\\Route\\": "src/"
+            "Playground\\Make\\React\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\Feature\\Playground\\Make\\Route\\": "tests/Feature/",
-            "Tests\\Unit\\Playground\\Make\\Route\\": "tests/Unit/"
+            "Tests\\Feature\\Playground\\Make\\React\\": "tests/Feature/",
+            "Tests\\Unit\\Playground\\Make\\React\\": "tests/Unit/"
         }
     },
     "config": {
@@ -51,12 +51,11 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-develop": "73.x-dev",
-            "dev-master": "73.x-dev"
+            "dev-develop": "73.x-dev"
         },
         "laravel": {
             "providers": [
-                "Playground\\Make\\Route\\ServiceProvider"
+                "Playground\\Make\\React\\ServiceProvider"
             ]
         }
     },

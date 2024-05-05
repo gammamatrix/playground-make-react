@@ -4,10 +4,10 @@
  */
 
 declare(strict_types=1);
-namespace Tests\Unit\Playground\Make\Route;
+namespace Tests\Unit\Playground\Make\React;
 
 /**
- * \Tests\Unit\Playground\Make\Route\FileTrait
+ * \Tests\Unit\Playground\Make\React\FileTrait
  */
 trait FileTrait
 {

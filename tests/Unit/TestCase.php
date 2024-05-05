@@ -4,12 +4,12 @@
  */
 
 declare(strict_types=1);
-namespace Tests\Unit\Playground\Make\Route;
+namespace Tests\Unit\Playground\Make\React;
 
 use Playground\Test\OrchestraTestCase;
 
 /**
- * \Tests\Unit\Playground\Make\Route\TestCase
+ * \Tests\Unit\Playground\Make\React\TestCase
  */
 class TestCase extends OrchestraTestCase
 {
@@ -20,7 +20,7 @@ class TestCase extends OrchestraTestCase
         return [
             \Playground\ServiceProvider::class,
             \Playground\Make\ServiceProvider::class,
-            \Playground\Make\Route\ServiceProvider::class,
+            \Playground\Make\React\ServiceProvider::class,
         ];
     }
 }

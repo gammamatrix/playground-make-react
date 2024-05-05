@@ -4,15 +4,15 @@
  */
 
 declare(strict_types=1);
-namespace Tests\Feature\Playground\Make\Route\Console\Commands\About;
+namespace Tests\Feature\Playground\Make\React\Console\Commands\About;
 
 use PHPUnit\Framework\Attributes\CoversClass;
 use Playground\Test\OrchestraTestCase;
 
 /**
- * \Tests\Feature\Playground\Make\Route\Console\Commands\About
+ * \Tests\Feature\Playground\Make\React\Console\Commands\About
  */
-#[CoversClass(\Playground\Make\Route\ServiceProvider::class)]
+#[CoversClass(\Playground\Make\React\ServiceProvider::class)]
 class CommandTest extends OrchestraTestCase
 {
     protected function getPackageProviders($app)
@@ -20,7 +20,7 @@ class CommandTest extends OrchestraTestCase
         return [
             \Playground\ServiceProvider::class,
             \Playground\Make\ServiceProvider::class,
-            \Playground\Make\Route\ServiceProvider::class,
+            \Playground\Make\React\ServiceProvider::class,
         ];
     }
 
@@ -31,6 +31,6 @@ class CommandTest extends OrchestraTestCase
          */
         $result = $this->artisan('about');
         $result->assertExitCode(0);
-        $result->expectsOutputToContain('Playground: Make Route');
+        $result->expectsOutputToContain('Playground: Make React');
     }
 }

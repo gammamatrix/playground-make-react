@@ -35,13 +35,13 @@ jobs:
         channel-id: 'C068A06PV43'
         payload: |
           {
-            "text": "CI Build Status for playground-make-route: IN PROGRESS\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}",
+            "text": "CI Build Status for playground-make-react: IN PROGRESS\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}",
             "blocks": [
               {
                 "type": "header",
                 "text": {
                   "type": "plain_text",
-                  "text": ":runner: CI Build Status for playground-make-route"
+                  "text": ":runner: CI Build Status for playground-make-react"
                 }
               },
               {
@@ -138,13 +138,13 @@ jobs:
         update-ts: ${{ steps.slack.outputs.ts }}
         payload: |
           {
-            "text": "CI Build Status for playground-make-route: DONE\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}",
+            "text": "CI Build Status for playground-make-react: DONE\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}",
             "blocks": [
               {
                 "type": "header",
                 "text": {
                   "type": "plain_text",
-                  "text": ":white_check_mark: CI Build Status for playground-make-route"
+                  "text": ":white_check_mark: CI Build Status for playground-make-react"
                 }
               },
               {
@@ -199,13 +199,13 @@ jobs:
         update-ts: ${{ steps.slack.outputs.ts }}
         payload: |
           {
-            "text": "CI Build Status for playground-make-route: FAILED\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}",
+            "text": "CI Build Status for playground-make-react: FAILED\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}",
             "blocks": [
               {
                 "type": "header",
                 "text": {
                   "type": "plain_text",
-                  "text": ":warning: CI Build Status for playground-make-route"
+                  "text": ":warning: CI Build Status for playground-make-react"
                 }
               },
               {

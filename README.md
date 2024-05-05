@@ -1,10 +1,10 @@
-# Playground: Make Route
+# Playground: Make React
 
-[![Playground CI Workflow](https://github.com/gammamatrix/playground-make-route/actions/workflows/ci.yml/badge.svg?branch=develop)](https://raw.githubusercontent.com/gammamatrix/playground-make-route/testing/develop/testdox.txt)
-[![Test Coverage](https://raw.githubusercontent.com/gammamatrix/playground-make-route/testing/develop/coverage.svg)](tests)
+[![Playground CI Workflow](https://github.com/gammamatrix/playground-make-react/actions/workflows/ci.yml/badge.svg?branch=develop)](https://raw.githubusercontent.com/gammamatrix/playground-make-react/testing/develop/testdox.txt)
+[![Test Coverage](https://raw.githubusercontent.com/gammamatrix/playground-make-react/testing/develop/coverage.svg)](tests)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-level%209-brightgreen)](.github/workflows/ci.yml#L120)
 
-The Playground Make Route Tool for building out [Laravel](https://laravel.com/docs/11.x) applications.
+The Playground Make React Tool for building out [Laravel](https://laravel.com/docs/11.x) applications.
 
 ## Installation
 
@@ -14,16 +14,16 @@ The Playground Make Route Tool for building out [Laravel](https://laravel.com/do
 
 Playground Make provides information in the `artisan about` command.
 
-<!-- <img src="resources/docs/artisan-about-playground-make-route.png" alt="screenshot of artisan about command with Playground Make."> -->
+<!-- <img src="resources/docs/artisan-about-playground-make-react.png" alt="screenshot of artisan about command with Playground Make."> -->
 
 ## Configuration
 
 You can publish the config file with:
 ```bash
-php artisan vendor:publish --provider="Playground\Make\Route\ServiceProvider" --tag="playground-config"
+php artisan vendor:publish --provider="Playground\Make\React\ServiceProvider" --tag="playground-config"
 ```
 
-See the contents of the published config file: [config/playground-make-route.php](config/playground-make-route.php)
+See the contents of the published config file: [config/playground-make-react.php](config/playground-make-react.php)
 
 ## Commands
 
